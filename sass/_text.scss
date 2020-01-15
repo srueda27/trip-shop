@@ -14,24 +14,28 @@ $medium-font-size: 18px;
 $large-font-size: 24px;
 $extra-large-font-size: 40px;
 
+.text-xsmall {
+  font: #{$mini-font-size}/14px $condensed-font;
+}
+
 .text-small {
   font: #{$small-font-size}/14px $condensed-font;
 }
 
 .text-medium {
-  font: #{$medium-font-size}/18px $regular-font;  
-}  
+  font: #{$medium-font-size}/18px $regular-font;
+}
 
 .text-large {
-  font: #{$large-font-size}/24px $condensed-font;  
-}  
+  font: #{$large-font-size}/24px $condensed-font;
+}
 
 .text-xlarge {
-  font: #{$extra-large-font-size}/40px $condensed-font;  
-}  
+  font: #{$extra-large-font-size}/40px $condensed-font;
+}
 
 .bolder {
-    font-weight: bolder;
+  font-weight: bolder;
 }
 
 .color-dark-gray {
@@ -39,5 +43,5 @@ $extra-large-font-size: 40px;
 }
 
 .color-black {
-    color: $black;
+  color: $black;
 }

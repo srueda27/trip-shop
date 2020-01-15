@@ -14,7 +14,8 @@ body {
 }
 
 @media screen and (min-width: 1024px) {
-    .main-images-container {
-        
-    }
+    /* .blablabla {
+        display: flex;
+        align-items: center;
+      } */
 }
