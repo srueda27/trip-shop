@@ -78,8 +78,8 @@ img {
     display: initial; }
   .shop-now {
     position: absolute;
-    right: 0;
-    bottom: 0;
+    right: 1rem;
+    bottom: 1rem;
     width: 50%;
     min-height: 200px;
     height: 35vh;
@@ -101,6 +101,8 @@ img {
   .shop-now {
     display: grid;
     position: relative;
+    right: initial;
+    bottom: initial;
     height: auto;
     width: auto;
     background: none; }

@@ -45,10 +45,6 @@ img {
   margin: auto;
 }
 
-.main-images-container {
-  // max-height: calc(100vh - 32px);
-}
-
 .shop-now {
   display: grid;
   grid-template-rows: 90% 10%;
@@ -62,8 +58,8 @@ img {
 
   .shop-now {
     position: absolute;
-    right: 0;
-    bottom: 0;
+    right: 1rem;
+    bottom: 1rem;
     width: 50%;
     min-height: 200px;
     height: 35vh;
@@ -95,6 +91,8 @@ img {
   .shop-now {
     display: grid;
     position: relative;
+    right: initial;
+    bottom: initial;
     height: auto;
     width: auto;
     background: none;
