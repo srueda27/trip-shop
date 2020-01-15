@@ -1,2 +1,19 @@
 @import 'components/side.scss';
-@import 'components/navbar.scss'
+@import 'components/navbar.scss';
+
+
+* {
+    background-color: white;
+    box-sizing: border-box;
+  }
+  
+  html {
+    background-color: $dark-white;
+  }
+  
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  

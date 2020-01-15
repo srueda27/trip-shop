@@ -1,3 +1,61 @@
 @import '../colors';
 @import '../text';
-@import 'styles';
+
+.desktop-view,
+.tablet-view {
+  display: none;
+}
+
+.main-container {
+  margin: auto;
+}
+
+.shop-now {
+  display: grid;
+  grid-template-rows: 90% 10%;
+  height: 25vh;
+}
+
+@media screen and (min-width: 768px) {
+  .tablet-view {
+    display: initial;
+  }
+
+  .shop-now {
+    position: absolute;
+    right: 0.5rem;
+    bottom: 0.5rem;
+    width: 50%;
+    min-height: 200px;
+    height: 35vh;
+    background: white;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .desktop-view {
+    display: initial;
+  }
+
+  .main-container {
+    max-height: 100vh;
+    max-width: 1300px;
+    display: grid;
+    grid-template-columns: minmax(120px, 10%) 1fr minmax(100px, 10%);
+  }
+
+  .main-images-container {
+    max-height: 100vh;
+    gap: 0.25rem;
+  }
+
+  .shop-now {
+    display: grid;
+    position: relative;
+    right: initial;
+    bottom: initial;
+    height: auto;
+    width: auto;
+    background: none;
+  }
+}
