@@ -100,13 +100,23 @@ img {
     background: none;
   }
 
+  .side {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+
   .side a {
     display: flex;
   }
 
-  .blablabla {
+  .cart-icon {
     display: flex;
     align-items: center;
+  }
+
+  .cart-icon:hover {
+    cursor: pointer;
   }
 
   .side-icon {
