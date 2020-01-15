@@ -1,0 +1,14 @@
+.bar {
+  background-color: #f42;
+  display: block;
+  margin-top: 3px;
+  height: 2px;
+  width: 20px;
+  position: relative;
+  left: -2px; }
+
+.search-menu__item {
+  display: block;
+  height: 48px;
+  width: 48px;
+  padding: 16px; }

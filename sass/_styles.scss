@@ -1,0 +1,91 @@
+@use 'colors';
+* {
+  background-color: white;
+}
+
+html {
+  background-color: $dark-white;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.menu-bar {
+  background-color: $dark-gray;
+  border-radius: 1px;
+  display: block;
+  margin-top: 3.5px;
+  height: 2px;
+  width: 25px;
+  position: relative;
+  left: -2px;
+}
+
+.top-bar {
+  width: 16px;
+}
+
+.bottom-bar {
+  @extend .top-bar;
+
+  left: 7px;
+}
+
+.desktop-view,
+.tablet-view {
+  display: none;
+}
+
+.main-container {
+  margin: auto;
+}
+
+.shop-now {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: grid;
+  grid-template-rows: 90% 10%;
+  height: 25%;
+  background: white;
+  width: 50%;
+}
+
+@media screen and (min-width: 768px) {
+  .tablet-view {
+    display: initial;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .desktop-view {
+    display: initial;
+  }
+
+  .main-container {
+    max-height: 100vh;
+    max-width: 1300px;
+    display: grid;
+    grid-template-columns: minmax(120px, 10%) 1fr minmax(100px, 10%);
+  }
+
+  .nav-bar {
+    flex-direction: column;
+  }
+
+  .main-images-container {
+    max-height: calc(100vh - 32px);
+    gap: 0.25rem;
+  }
+
+  .shop-now {
+    display: grid;
+    position: relative;
+    height: auto;
+    width: auto;
+    background: none;
+  }
+}

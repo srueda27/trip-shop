@@ -1,0 +1,43 @@
+@use 'colors';
+
+@import url(https://fonts.googleapis.com/css?family=Roboto&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap);
+
+$regular-font: 'Roboto', sans-serif;
+$condensed-font: 'Roboto Condensed', sans-serif;
+$medium-font: 'Roboto Slab', serif;
+
+$mini-font-size: 12px;
+$small-font-size: 14px;
+$medium-font-size: 18px;
+$large-font-size: 24px;
+$extra-large-font-size: 40px;
+
+.text-small {
+  font: #{$small-font-size}/14px $condensed-font;
+}
+
+.text-medium {
+  font: #{$medium-font-size}/18px $regular-font;  
+}  
+
+.text-large {
+  font: #{$large-font-size}/24px $condensed-font;  
+}  
+
+.text-xlarge {
+  font: #{$extra-large-font-size}/40px $condensed-font;  
+}  
+
+.bolder {
+    font-weight: bolder;
+}
+
+.color-dark-gray {
+  color: $dark-gray;
+}
+
+.color-black {
+    color: $black;
+}
