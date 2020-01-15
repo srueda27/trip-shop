@@ -1,14 +1,5 @@
-@import '../colors';
-@import '../text';
-
-.desktop-view,
-.tablet-view {
-  display: none;
-}
-
-.main-container {
-  margin: auto;
-}
+@use '../colors';
+@use '../text';
 
 .shop-now {
   display: grid;
@@ -17,10 +8,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .tablet-view {
-    display: initial;
-  }
-
   .shop-now {
     position: absolute;
     right: 0.5rem;
@@ -33,17 +20,6 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .desktop-view {
-    display: initial;
-  }
-
-  .main-container {
-    max-height: 100vh;
-    max-width: 1300px;
-    display: grid;
-    grid-template-columns: minmax(120px, 10%) 1fr minmax(100px, 10%);
-  }
-
   .main-images-container {
     max-height: 100vh;
     gap: 0.25rem;
