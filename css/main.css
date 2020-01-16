@@ -149,7 +149,7 @@ section * {
     position: sticky;
     height: 100vh;
     top: 0; }
-  .max-content {
+  #max-content {
     height: auto;
     max-height: unset; }
   .category-container {
