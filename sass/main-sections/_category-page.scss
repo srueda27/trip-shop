@@ -1,12 +1,12 @@
-@use '../colors';
-@use '../text';
+@use 'text';
+@use 'colors';
 
 .main-container {
   margin: auto;
 }
 
 section * {
-  background-color: whitesmoke;
+  background-color: $dark-white;
 }
 
 .category-cart {

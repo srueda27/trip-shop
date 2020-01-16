@@ -1,10 +1,20 @@
 
 
+.menu-text-close {
+    display: none;
+}
 
+.menu-text-close.active {
+    display: initial;
+}
 
-.main-images-container {
-    position: relative;
-  }
+.menu-text.inactive {
+    display: none;
+}
+
+.transition {
+    transition: 1s ease all;
+}
 
 
 @media screen and (min-width: 768px) {
