@@ -10,7 +10,7 @@ section * {
 }
 
 .category-cart {
-  grid-template-rows: auto 200px auto;
+  grid-template-rows: auto 250px auto;
 }
 
 @media screen and (min-width: 768px) {
@@ -18,7 +18,7 @@ section * {
 }
 
 @media screen and (min-width: 1024px) {
-  .position-sticky {
+  .top-sticky {
     position: sticky;
     height: 100vh;
     top: 0;
