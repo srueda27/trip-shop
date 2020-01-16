@@ -1,0 +1,64 @@
+@use '../colors';
+
+.multiple-images {
+    display: none;
+}
+
+.main-product-info * {
+  background-color: $dark-white;
+}
+
+.main-product-info {
+  grid-template-rows: repeat(auto-fit, auto);
+  row-gap: 0.25rem;
+}
+
+.main-product-image {
+  grid-template-rows: auto;
+}
+
+.activities-list {
+  list-style: decimal outside;
+}
+
+.activities-list li {
+  padding-bottom: 0.15rem;
+}
+
+.add-to-card {
+  min-height: 50px;
+  background-color: $white;
+  column-gap: 0.25rem;
+}
+
+.add-to-cart__links {
+  background-color: $dark-white;
+  text-align: center;
+}
+
+.carousel-inner {
+  height: 100%;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  top: 40%;
+  width: 50px;
+  height: 50px;
+}
+
+@media screen and (min-width: 768px) {
+    .multiple-images {
+        display: grid;
+        row-gap: 0.25rem;
+    }
+
+    main {
+        grid-template-columns: 30% 70%;
+        column-gap: 0.25rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+}

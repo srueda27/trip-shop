@@ -7,17 +7,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/prefixers/outgrid.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/fast-styles.css">
+    <link rel="stylesheet" href="../css/prefixers/outgrid.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/fast-styles.css">
     <title>Trip shop</title>
 </head>
 
 <body>
 
-    <div class="main-container">
-        <nav class="d-flex jcsb aic p-2 nav-bar">
-            <a class="bolder text-medium color-black" href="#">Trip-Shop</a>
+    <div class="main-container" id="max-content">
+        <nav class="d-flex jcsb aic p-2 nav-bar top-sticky">
+            <a class="bolder text-medium color-black" href="category-page.html">Adventures</a>
             <div class="py-1" id="menu" data-toggle="collapse" href="#collapseExample">
                 <a href="javascript:void(0)" class="search-menu__item d-flex">
                     <div>
@@ -35,7 +35,7 @@
                         <a class="text-medium color-dark-gray" href="javascript:void(0)">Relax</a>
                     </li>
                     <li class="my-1 py-1">
-                        <a class="text-medium color-dark-gray" href="html/category-page.html">Adventures</a>
+                        <a class="text-medium color-dark-gray" href="javascript:void(0)">Adventures</a>
                     </li>
                     <li class="my-1 py-1">
                         <a class="text-medium color-dark-gray" href="javascript:void(0)">Nature</a>
@@ -57,19 +57,79 @@
                 </li>
             </ul>
         </nav>
-        <main class="container-lg-2-2 p-1 pb-2 main-images-container">
-            <img class="area-1-2" src="images/peru/dunas2.jpeg" alt="dunas peru">
-            <img class="area-1-1 desktop-view" src="images/peru/dunas.jpeg" alt="dunas peru">
-            <div class="area-lg-1-1 py-3 p-md-5 shop-now">
-                <div>
-                    <a class="text-xlarge color-black bolder" href="javascript:void(0)">Huacachina Desert - Peru</a>
+        <main class="p-1 d-grid">
+            <div class="multiple-images d-grid">
+                <img src="../images/termales-cabaña/rio.jpg" alt="">
+                <img src="../images/termales-cabaña/termales.jpg" alt="">
+                <img src="../images/termales-cabaña/cascada.jpg" alt="">
+            </div>
+            <div class="d-grid main-product-info">
+                <div class="d-grid p-1 aut">
+                    <span class="p-1 mb-2 jse text-small color-dark-gray">3015</span>
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../images/termales-cabaña/rio.jpg" alt="">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/termales-cabaña/termales.jpg" alt="">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/termales-cabaña/cascada.jpg" alt="">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button"
+                            data-slide="prev">
+                            <span class="text-large bolder color-dark-gray" aria-hidden="true">
+                                Prev</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button"
+                            data-slide="next">
+                            <span class="text-large bolder color-dark-gray" aria-hidden="true">Next</span>
+                        </a>
+                    </div>
                 </div>
-                <div>
-                    <a class="text-small color-dark-gray" href="javascript:void(0)">Shop Now</a>
+                <div class="container-2-1 jcsb aic py-3 price-tag">
+                    <div class="d-grid aut">
+                        <span class="p-1 pb-2 ml-2 text-medium color-dark-gray bolder">Termales de la Cabaña</span>
+                        <span class="p-1 ml-2 text-small color-gray bolder">Murillo</span>
+                    </div>
+                    <span class="jse p-1 mr-2 text-small color-dark-gray bolder">100 USD</span>
+                </div>
+                <div class="d-flex jcsa aic py-3 wheather">
+                    <span class="text-small color-gray">Hot</span>
+                    <span class="text-small color-gray">Warm</span>
+                    <span class="text-small color-gray">Stationary</span>
+                    <span class="text-small color-black bolder">Cold</span>
+                    <span class="text-small color-gray">Freezing</span>
+                </div>
+                <div class="p-3 activities">
+                    <h2 class="text-medium color-black bolder mb-4">Activities</h2>
+                    <p class="text-small color-dark-gray mb-2">There are a lot of activities to do in this region but
+                        the
+                        most
+                        famous ones are:</p>
+                    <ol class="text-small color-dark-gray activities-list pl-4">
+                        <li>Visited Termales de la cabaña</li>
+                        <li>Visited the Frailejon's valley</li>
+                        <li>Landscape seeing</li>
+                    </ol>
+                </div>
+                <div class="container-5-1 add-to-card">
+                    <div class="area-1-1 d-grid jcc aic">
+                        <a class="text-large color-black add-to-cart__links" href="javascript:void(0)">
+                            +
+                        </a>
+                    </div>
+                    <div class="area-4-1 d-grid jcc aic">
+                        <a class="text-medium color-black add-to-cart__links" href="javascript:void(0)">
+                            Add To Cart
+                        </a>
+                    </div>
                 </div>
             </div>
         </main>
-        <aside class="py-2 px-3 side desktop-view">
+        <aside class="py-2 px-3 side desktop-view top-sticky">
             <div class="my-1 cart-icon side-icon">
                 <a class="my-2 text-xsmall color-dark-gray mr-1" href="javascript:void(0)">Cart
                 </a>
@@ -143,7 +203,7 @@
         </aside>
     </div>
 
-    <script src="js/script.js"></script>
+    <script src="../js/script.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>

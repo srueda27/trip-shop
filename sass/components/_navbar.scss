@@ -21,6 +21,18 @@
   left: 7px;
 }
 
+.menu-text-close {
+  display: none;
+}
+
+.menu-text-close.active {
+  display: initial;
+}
+
+.menu-text.inactive {
+  display: none;
+}
+
 @media screen and (min-width: 1024px) {
   .nav-bar {
     flex-direction: column;

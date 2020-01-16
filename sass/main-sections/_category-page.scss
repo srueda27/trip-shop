@@ -5,7 +5,7 @@
   margin: auto;
 }
 
-section * {
+.category-container * {
   background-color: $dark-white;
 }
 
@@ -25,8 +25,8 @@ section * {
   }
 
   #max-content {
-    height: auto ;
-    max-height: unset ;
+    height: auto;
+    max-height: unset;
   }
 
   .category-container {
