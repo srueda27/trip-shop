@@ -8,6 +8,11 @@
   box-sizing: border-box;
 }
 
+a:hover {
+  color: initial;
+  text-decoration: none;
+}
+
 html {
   background-color: $dark-white;
 }
@@ -36,6 +41,10 @@ img {
 @media screen and (min-width: 1024px) {
   .desktop-view {
     display: initial;
+  }
+
+  .no-desktop {
+    display: none;
   }
 
   .main-container {
