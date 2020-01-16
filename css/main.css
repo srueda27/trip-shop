@@ -128,6 +128,7 @@ img {
     display: initial; }
   .main-container {
     max-height: 100vh;
+    height: 100vh;
     max-width: 1300px;
     display: grid;
     grid-template-columns: minmax(120px, 10%) 1fr minmax(100px, 10%); } }

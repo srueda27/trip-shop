@@ -1,9 +1,7 @@
 @use '../colors';
 @use '../text';
-.position-sticky {
-  position: sticky;
-  height: 100vh;
-  top: 0; }
+.main-container {
+  margin: auto; }
 
 section * {
   background-color: whitesmoke; }
@@ -12,7 +10,12 @@ section * {
   grid-template-rows: auto 200px auto; }
 
 @media screen and (min-width: 1024px) {
-  .main-container {
-    max-height: max-content; }
+  .position-sticky {
+    position: sticky;
+    height: 100vh;
+    top: 0; }
+  .max-content {
+    height: auto;
+    max-height: unset; }
   .category-container {
     grid-template-columns: repeat(3, 1fr); } }
