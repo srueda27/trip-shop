@@ -1,0 +1,30 @@
+@use '../colors';
+@use '../text';
+
+.position-sticky {
+  position: sticky;
+  height: 100vh;
+  top: 0;
+}
+
+section * {
+  background-color: whitesmoke;
+}
+
+.category-cart {
+  grid-template-rows: auto 200px auto;
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 1024px) {
+  .main-container {
+    max-height: max-content;
+  }
+
+  .category-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

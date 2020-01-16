@@ -3,27 +3,26 @@
 @import 'components/side.scss';
 @import 'components/navbar.scss';
 
-
 * {
-    background-color: white;
-    box-sizing: border-box;
-  }
-  
-  html {
-    background-color: $dark-white;
-  }
-  
-  img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  .main-container {
-    margin: auto;
-  }
+  background-color: white;
+  box-sizing: border-box;
+}
 
-  .desktop-view,
+html {
+  background-color: $dark-white;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.main-container {
+  margin: auto;
+}
+
+.desktop-view,
 .tablet-view {
   display: none;
 }

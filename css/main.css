@@ -7,6 +7,15 @@
 .background-dark-white {
   background-color: #fff; }
 
+.color-dark-gray {
+  color: #313131; }
+
+.color-black {
+  color: black; }
+
+.color-gray {
+  color: #b9b9b9; }
+
 @use 'colors';
 .text-xsmall {
   font: 12px/14px "Roboto Condensed", sans-serif; }
@@ -25,12 +34,6 @@
 
 .bolder {
   font-weight: bolder; }
-
-.color-dark-gray {
-  color: #313131; }
-
-.color-black {
-  color: black; }
 
 @use '../colors';
 @media screen and (min-width: 1024px) {
@@ -67,6 +70,15 @@
 
 .background-dark-white {
   background-color: #fff; }
+
+.color-dark-gray {
+  color: #313131; }
+
+.color-black {
+  color: black; }
+
+.color-gray {
+  color: #b9b9b9; }
 
 .menu-bar {
   background-color: #313131;
