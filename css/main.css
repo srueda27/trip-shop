@@ -130,6 +130,8 @@ img {
 @media screen and (min-width: 1024px) {
   .desktop-view {
     display: initial; }
+  .no-desktop {
+    display: none; }
   .main-container {
     max-height: 100vh;
     height: 100vh;
