@@ -280,10 +280,9 @@
 
 @media screen and (min-width: 1024px) {
   .product-page-main {
-    grid-template-rows: 25% 75%;
+    grid-template-rows: 250px auto;
     grid-template-columns: 1fr;
     row-gap: 0.25rem;
-    max-height: 100vh;
   }
 
   .multiple-images {
@@ -292,10 +291,6 @@
     -webkit-column-gap: 0.25rem;
     -moz-column-gap: 0.25rem;
     column-gap: 0.25rem;
-  }
-
-  #carouselExampleControls {
-    max-height: 65vh;
   }
 
   .carousel-inner {
@@ -313,6 +308,7 @@
 
   .image {
     grid-area: img;
+    grid-template-rows: 30px auto;
   }
 
   .price-tag {
@@ -329,6 +325,7 @@
 
   .add-to-card {
     grid-area: add-to-cart;
+    max-height: 80px;
   }
 }
 
