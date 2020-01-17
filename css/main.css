@@ -82,6 +82,7 @@
   }
 
   .side-icon .side-svg {
+    display: grid;
     width: 16px;
     height: 16px;
     fill: black;
@@ -154,7 +155,6 @@
     width: 50%;
     min-height: 200px;
     height: 35vh;
-    background: #f5f5f5;
   }
 }
 
@@ -340,6 +340,10 @@ img {
 @media screen and (min-width: 768px) {
   .tablet-view {
     display: initial;
+  }
+
+  .main-images-container {
+    height: calc(100vh - 50px);
   }
 }
 

@@ -43,6 +43,10 @@ img {
   .tablet-view {
     display: initial;
   }
+
+  .main-images-container {
+    height: calc(100vh - 50px);
+  }
 }
 
 @media screen and (min-width: 1024px) {
