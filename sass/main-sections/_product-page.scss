@@ -1,7 +1,7 @@
 @use '../colors';
 
 .multiple-images {
-    display: none;
+  display: none;
 }
 
 .main-product-info * {
@@ -11,10 +11,6 @@
 .main-product-info {
   grid-template-rows: repeat(auto-fit, auto);
   row-gap: 0.25rem;
-}
-
-.main-product-image {
-  grid-template-rows: auto;
 }
 
 .activities-list {
@@ -48,17 +44,73 @@
 }
 
 @media screen and (min-width: 768px) {
-    .multiple-images {
-        display: grid;
-        row-gap: 0.25rem;
-    }
+  .multiple-images {
+    display: grid;
+    row-gap: 0.25rem;
+    background-color: $white;
+  }
 
-    main {
-        grid-template-columns: 30% 70%;
-        column-gap: 0.25rem;
-    }
+  .multiple-images img {
+    padding: 0.5rem;
+    background-color: $dark-white;
+  }
+
+  main {
+    grid-template-columns: 30% 70%;
+    column-gap: 0.25rem;
+  }
 }
 
 @media screen and (min-width: 1024px) {
+  main {
+    grid-template-rows: 25% 75%;
+    grid-template-columns: 1fr;
+    row-gap: 0.25rem;
+    max-height: 100vh;
+  }
 
+  .multiple-images {
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 0.25rem;
+  }
+
+
+  #carouselExampleControls {
+    max-height: 65vh;
+  }
+
+  .carousel-inner {
+    max-height: inherit;
+  }
+
+  .main-product-info {
+    grid-template-columns: 40% 60%;
+    grid-template-rows: auto;
+    column-gap: 0.25rem;
+    grid-template-areas:
+      "price img"
+      "weather img"
+      "activities img"
+      "add-to-cart img";
+  }
+
+  .image {
+    grid-area: img;
+  }
+
+  .price-tag {
+    grid-area: price;
+  }
+
+  .weather {
+    grid-area: weather;
+  }
+
+  .activities {
+    grid-area: activities;
+  }
+
+  .add-to-card {
+    grid-area: add-to-cart;
+  }
 }
