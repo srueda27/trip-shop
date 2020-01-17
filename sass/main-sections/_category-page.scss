@@ -1,10 +1,6 @@
 @use 'text';
 @use 'colors';
 
-.main-container {
-  margin: auto;
-}
-
 .category-container * {
   background-color: $dark-white;
 }

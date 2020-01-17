@@ -12,7 +12,7 @@ gulp.task('styles', () => {
 });
 
 gulp.task('prefixer', () => {
-    return gulp.src('css/*.css')
+    return gulp.src('css/main.css')
         .pipe(autoprefixer({
             cascade: false
         }).on('error', sass.logError))
