@@ -256,14 +256,14 @@
     background-color: #f5f5f5;
   }
 
-  main {
+  .product-page-main {
     grid-template-columns: 30% 70%;
     column-gap: 0.25rem;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  main {
+  .product-page-main {
     grid-template-rows: 25% 75%;
     grid-template-columns: 1fr;
     row-gap: 0.25rem;
