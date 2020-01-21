@@ -1,4 +1,4 @@
-# Trip-shop
+# Trip-Shop
 A HTML &amp; CSS Capstone Project with personalized the content based on an online shop for sneakers.
 
 ---
