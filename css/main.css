@@ -156,11 +156,16 @@
     min-height: 200px;
     height: 35vh;
   }
+
+  .main-images-container {
+    height: calc(100vh - 50px);
+  }
 }
 
 @media screen and (min-width: 1024px) {
   .main-images-container {
     max-height: 100vh;
+    height: 100vh;
     gap: 0.25rem;
   }
 
@@ -340,10 +345,6 @@ img {
 @media screen and (min-width: 768px) {
   .tablet-view {
     display: initial;
-  }
-
-  .main-images-container {
-    height: calc(100vh - 50px);
   }
 }
 

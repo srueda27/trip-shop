@@ -1,5 +1,5 @@
-# trip-shop
-A HTML &amp; CSS Capstone Project with personalise the content based on an online shop for sneakers.
+# Trip-shop
+A HTML &amp; CSS Capstone Project with personalized the content based on an online shop for sneakers.
 
 ---
 
@@ -9,12 +9,39 @@ A HTML &amp; CSS Capstone Project with personalise the content based on an onlin
 - Gulp
 - Outgrid
 - [OnlineWeb](http://www.onlinewebfonts.com/icon)
+- Boostrap
 
 ---
 
 ## Live Demo
 
-[Live Demo Link](#)
+[Live Demo Link](https://rawcdn.githack.com/srueda27/trip-shop/3ee81f29a928c3c01b40c620ced58941b51c59e6/index.html)
+
+---
+
+## Prerequisites
+
+- Node.js (for Stylelint)
+- Web Browser
+- CLI
+- IDE
+
+---
+
+## Dependencies
+
+- gulp
+- gulp-sass
+- del
+- stylelint
+- gulp-autoprefixer
+
+---
+
+## Install
+
+- git clone git@github.com:srueda27/trip-shop.git
+- npm install
 
 ---
 
