@@ -15,7 +15,7 @@ A HTML &amp; CSS Capstone Project with personalized the content based on an onli
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/srueda27/trip-shop/3ee81f29a928c3c01b40c620ced58941b51c59e6/index.html)
+[Live Demo Link](https://srueda27.github.io/trip-shop/)
 
 ---
 
