@@ -1,0 +1,31 @@
+@use 'text';
+@use 'colors';
+
+.category-container * {
+  background-color: $dark-white;
+}
+
+.category-cart {
+  grid-template-rows: auto 250px auto;
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 1024px) {
+  .top-sticky {
+    position: sticky;
+    height: 100vh;
+    top: 0;
+  }
+
+  #max-content {
+    height: auto;
+    max-height: unset;
+  }
+
+  .category-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

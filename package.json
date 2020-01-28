@@ -1,0 +1,31 @@
+{
+  "name": "trip-shop",
+  "version": "1.0.0",
+  "description": "A HTML &amp; CSS Capstone Project with personalise the content based on an online shop for sneakers.",
+  "main": "stylelint.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srueda27/trip-shop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srueda27/trip-shop/issues"
+  },
+  "homepage": "https://github.com/srueda27/trip-shop#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.13.0",
+    "stylelint": "^13.0.0",
+    "stylelint-config-recommended": "^3.0.0"
+  },
+  "dependencies": {
+    "del": "^5.1.0"
+  }
+}

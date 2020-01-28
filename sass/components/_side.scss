@@ -1,0 +1,51 @@
+@use '../colors';
+
+@media screen and (min-width: 1024px) {
+  .side {
+    display: flex !important;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .side a {
+    display: flex;
+  }
+
+  .cart-icon {
+    display: flex;
+    align-items: center;
+  }
+
+  .cart-icon:hover {
+    cursor: pointer;
+  }
+
+  .side-icon {
+    width: max-content;
+
+    .box-icon {
+      width: 32px;
+      height: 32px;
+      padding: 8px;
+    }
+
+    .side-svg {
+      display: grid;
+      width: 16px;
+      height: 16px;
+      fill: black;
+      background-color: transparent;
+    }
+
+    &:hover {
+      .box-icon {
+        background-color: black;
+        border-radius: 50%;
+      }
+
+      .side-svg {
+        fill: white;
+      }
+    }
+  }
+}

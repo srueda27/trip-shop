@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/prefixers/outgrid.css">
+    <link rel="stylesheet" href="../css/prefixers/main.css">
+    <title>Trip shop</title>
+</head>
+
+<body>
+
+    <div class="main-container" id="max-content">
+        <nav class="d-flex jcsb aic p-2 nav-bar top-sticky">
+            <a class="bolder text-medium color-black" href="../index.html">Trip-Shop</a>
+            <div class="py-1" id="menu" data-toggle="collapse">
+                <a href="javascript:void(0)" class="search-menu__item d-flex">
+                    <div>
+                        <span class="menu-bar top-bar"></span>
+                        <span class="menu-bar"></span>
+                        <span class="menu-bar bottom-bar"></span>
+                    </div>
+                    <span class="ml-1 desktop-view text-medium color-dark-gray menu-text" id="menu-text">Menu</span>
+                    <span class="ml-1 text-medium color-gray menu-text-close" id="menu-text-close">Close</span>
+                </a>
+            </div>
+            <div class="collapse menu-text-close" id="collapseExample">
+                <ul>
+                    <li class="my-1 py-1">
+                        <a class="text-medium color-dark-gray" href="javascript:void(0)">Relax</a>
+                    </li>
+                    <li class="my-1 py-1">
+                        <a class="text-medium color-dark-gray" href="adventures.html">Adventures</a>
+                    </li>
+                    <li class="my-1 py-1">
+                        <a class="text-medium color-dark-gray" href="javascript:void(0)">Nature</a>
+                    </li>
+                </ul>
+            </div>
+            <ul class="desktop-view">
+                <li class="py-1">
+                    <a class="text-small color-dark-gray" href="javascript:void(0)">Facebook</a>
+                </li>
+                <li class="py-1">
+                    <a class="text-small color-dark-gray" href="javascript:void(0)">Instagram</a>
+                </li>
+                <li class="py-1">
+                    <a class="text-small color-dark-gray" href="javascript:void(0)">Twitter</a>
+                </li>
+                <li class="py-1">
+                    <a class="text-small color-dark-gray" href="javascript:void(0)">Youtube</a>
+                </li>
+            </ul>
+        </nav>
+        <main class="p-1 d-grid product-page-main">
+            <div class="multiple-images d-grid">
+                <img src="../images/termales-cabaña/frailejones.jpg" alt="">
+                <img src="../images/termales-cabaña/termales.jpg" alt="">
+                <img src="../images/termales-cabaña/cascada.jpg" alt="">
+            </div>
+            <div class="d-grid main-product-info">
+                <div class="d-grid p-1 aut image">
+                    <span class="p-1 mb-2 m-lg-0 jse text-small color-dark-gray">3015</span>
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner p-lg-2">
+                            <div class="carousel-item active">
+                                <img src="../images/termales-cabaña/frailejones.jpg" alt="">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/termales-cabaña/termales.jpg" alt="">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/termales-cabaña/cascada.jpg" alt="">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev ml-lg-2" href="#carouselExampleControls" role="button"
+                            data-slide="prev">
+                            <span class="text-large bolder color-dark-gray" aria-hidden="true">
+                                Prev</span>
+                        </a>
+                        <a class="carousel-control-next mr-lg-2" href="#carouselExampleControls" role="button"
+                            data-slide="next">
+                            <span class="text-large bolder color-dark-gray" aria-hidden="true">Next</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="container-2-1 jcsb aic py-3 p-lg-0 price-tag">
+                    <div class="d-grid aut">
+                        <span class="p-1 pb-2 ml-2 text-medium color-dark-gray bolder">Termales de la Cabaña</span>
+                        <span class="p-1 ml-2 text-small color-gray bolder">Murillo</span>
+                    </div>
+                    <span class="jse p-1 mr-2 text-small color-dark-gray bolder">100 USD</span>
+                </div>
+                <div class="d-flex jcsa aic py-3 p-lg-0 weather">
+                    <span class="text-small color-gray">Hot</span>
+                    <span class="text-small color-gray">Warm</span>
+                    <span class="text-small color-gray">Stationary</span>
+                    <span class="text-small color-black bolder">Cold</span>
+                    <span class="text-small color-gray">Freezing</span>
+                </div>
+                <div class="p-3 activities">
+                    <h2 class="text-medium color-black bolder mb-4">Activities</h2>
+                    <p class="text-small color-dark-gray mb-2">There are a lot of activities to do in this region
+                        but
+                        the
+                        most
+                        famous ones are:</p>
+                    <ol class="text-small color-dark-gray activities-list pl-4">
+                        <li>Visited Termales de la Cabaña</li>
+                        <li>Visited the Frailejon's valley</li>
+                        <li>Landscape seeing</li>
+                    </ol>
+                </div>
+                <div class="container-5-1 add-to-card">
+                    <div class="area-1-1 d-grid jcc aic">
+                        <a class="text-large color-black add-to-cart__links" href="javascript:void(0)">
+                            +
+                        </a>
+                    </div>
+                    <div class="area-4-1 d-grid jcc aic">
+                        <a class="text-medium color-black add-to-cart__links" href="javascript:void(0)">
+                            Add To Cart
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <aside class="py-2 px-3 side desktop-view top-sticky">
+            <div class="my-1 cart-icon side-icon">
+                <a class="my-2 text-xsmall color-dark-gray mr-1" href="javascript:void(0)">Cart
+                </a>
+                <div class="box-icon">
+                    <svg class="side-svg" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000"
+                        enable-background="new 0 0 1000 1000" xml:space="preserve">
+                        <g>
+                            <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)">
+                                <path
+                                    d="M4856.2,5009.1c-176.4-46-331.6-172.5-412.1-337.4c-47.9-95.8-47.9-97.8-57.5-824.3L4377,3121l-76.7-15.3c-149.5-30.7-442.8-136.1-632.6-226.2c-830-398.7-1426.1-1140.5-1658.1-2064.5l-19.2-80.5l-724.6-5.8L543.3,723L447.4,675c-122.7-61.3-237.7-176.4-297.1-297.1C83.2,238,83.2-3.5,150.3-139.6c59.4-122.7,174.4-237.7,297.1-297.1c95.8-47.9,97.8-47.9,820.4-57.5l726.5-9.6l44.1-172.5c270.3-1035.1,1132.9-1897.7,2166.1-2166.1l172.5-44.1l9.6-726.5c9.6-722.7,9.6-724.6,57.5-820.4c59.4-122.7,174.4-237.7,297.1-297.1c138-67.1,379.5-67.1,517.6,0c122.7,59.4,237.7,174.4,297.1,297.1c47.9,95.8,47.9,97.8,57.5,820.4l9.6,726.5l172.5,44.1c851.1,220.4,1610.2,858.8,1985.9,1669.6c65.2,139.9,197.5,532.9,212.8,630.6c5.7,36.4,24.9,38.3,734.2,47.9c726.5,9.6,728.4,9.6,824.3,57.5c122.7,59.4,237.7,174.5,297.1,297.1c67.1,138,67.1,379.5,0,517.6c-59.4,122.7-174.4,237.7-297.1,297.1c-95.8,47.9-97.8,47.9-824.3,57.5c-709.2,9.6-728.4,11.5-734.2,47.9c-3.8,21.1-36.4,138-72.8,258.8c-287.5,933.5-1025.5,1681.1-1962.9,1989.7c-99.7,34.5-216.6,67.1-258.8,76.7L5623,3121l-9.6,726.5c-9.6,726.5-9.6,728.4-57.5,824.3c-61.3,122.7-176.4,237.7-297.1,295.2C5155.3,5014.8,4959.7,5035.9,4856.2,5009.1z M5442.8,1903.8c343.1-88.2,611.5-243.4,860.7-498.4c247.3-249.2,406.4-532.9,492.6-876c46-182.1,46-638.3,0-820.4c-170.6-682.4-669-1188.5-1353.3-1376.3c-210.8-59.4-674.7-59.4-885.6,0c-948.9,260.7-1533.5,1155.9-1368.6,2099c67.1,381.5,233.9,701.6,515.6,983.4c276,274.1,594.2,444.7,968,515.6C4871.6,1968.9,5249.2,1955.5,5442.8,1903.8z" />
+                            </g>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+            <a class="my-1 side-icon" href="javascript:void(0)">
+                <div class="box-icon">
+                    <svg class="side-svg" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 489.713 489.713"
+                        style="enable-background:new 0 0 489.713 489.713;" xml:space="preserve">
+                        <g>
+                            <path
+                                d="M483.4,454.444l-121.3-121.4c28.7-35.2,46-80,46-128.9c0-112.5-91.5-204.1-204.1-204.1S0,91.644,0,204.144
+                s91.5,204,204.1,204c48.8,0,93.7-17.3,128.9-46l121.3,121.3c8.3,8.3,20.9,8.3,29.2,0S491.8,462.744,483.4,454.444z M40.7,204.144
+                c0-90.1,73.2-163.3,163.3-163.3s163.4,73.3,163.4,163.4s-73.3,163.4-163.4,163.4S40.7,294.244,40.7,204.144z" />
+                        </g>
+                        <g></g>
+                        <g></g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                    </svg>
+                </div>
+            </a>
+            <a class="my-1 side-icon" href="javascript:void(0)">
+                <div class="box-icon">
+                    <svg class="side-svg" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000"
+                        enable-background="new 0 0 1000 1000" xml:space="preserve">
+                        <g>
+                            <path
+                                d="M500,544.5c-124,0-224.6-99.7-224.6-222.7c0-123,100.6-222.7,224.6-222.7c124,0,224.6,99.7,224.6,222.7C724.6,444.9,624,544.5,500,544.5L500,544.5z M500,10c-173.6,0-314.4,139.6-314.4,311.9c0,172.2,140.7,311.8,314.4,311.8s314.4-139.6,314.4-311.8C814.4,149.6,673.6,10,500,10L500,10z M500,544.5C251.9,544.5,50.8,744,50.8,990h89.8c0-196.8,160.9-356.3,359.3-356.3c198.4,0,359.3,159.6,359.3,356.3h89.8C949.2,744,748.1,544.5,500,544.5L500,544.5z" />
+                        </g>
+                    </svg>
+                </div>
+            </a>
+        </aside>
+    </div>
+
+    <script src="../js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

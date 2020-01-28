@@ -1,0 +1,64 @@
+@import 'colors';
+@import 'text';
+@import 'components/side.scss';
+@import 'components/navbar.scss';
+@import 'main-sections/main-page';
+@import 'main-sections/category-page';
+@import 'main-sections/product-page';
+
+* {
+  background-color: $white;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $dark-white;
+}
+
+a:hover {
+  color: initial;
+  text-decoration: none;
+}
+
+html {
+  background-color: $dark-white;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.main-container {
+  margin: auto;
+}
+
+.desktop-view,
+.tablet-view {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .tablet-view {
+    display: initial;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .desktop-view {
+    display: initial;
+  }
+
+  .no-desktop {
+    display: none;
+  }
+
+  .main-container {
+    max-height: 100vh;
+    height: 100vh;
+    max-width: 1300px;
+    display: grid;
+    grid-template-columns: minmax(120px, 10%) 1fr minmax(100px, 10%);
+  }
+}

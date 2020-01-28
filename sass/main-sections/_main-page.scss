@@ -1,0 +1,45 @@
+@use '../colors';
+@use '../text';
+
+.shop-now {
+  display: grid;
+  grid-template-rows: 90% 10%;
+  height: 25vh;
+}
+
+.main-images-container {
+  position: relative;
+}
+
+@media screen and (min-width: 768px) {
+  .shop-now {
+    position: absolute;
+    right: 0.25rem;
+    bottom: 0.5rem;
+    width: 50%;
+    min-height: 200px;
+    height: 35vh;
+  }
+
+  .main-images-container {
+    height: calc(100vh - 50px);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .main-images-container {
+    max-height: 100vh;
+    height: 100vh;
+    gap: 0.25rem;
+  }
+
+  .shop-now {
+    display: grid;
+    position: relative;
+    right: initial;
+    bottom: initial;
+    height: auto;
+    width: auto;
+    background: none;
+  }
+}

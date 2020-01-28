@@ -1,0 +1,40 @@
+@use '../colors';
+
+.menu-bar {
+  background-color: $dark-gray;
+  border-radius: 1px;
+  display: block;
+  margin-top: 3.5px;
+  height: 2px;
+  width: 25px;
+  position: relative;
+  left: -2px;
+}
+
+.top-bar {
+  width: 16px;
+}
+
+.bottom-bar {
+  @extend .top-bar;
+
+  left: 7px;
+}
+
+.menu-text-close {
+  display: none;
+}
+
+.menu-text-close.active {
+  display: initial;
+}
+
+.menu-text.inactive {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .nav-bar {
+    flex-direction: column;
+  }
+}

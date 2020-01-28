@@ -1,0 +1,114 @@
+@use '../colors';
+
+.multiple-images {
+  display: none;
+}
+
+.main-product-info * {
+  background-color: $dark-white;
+}
+
+.main-product-info {
+  grid-template-rows: repeat(auto-fit, auto);
+  row-gap: 0.25rem;
+}
+
+.activities-list {
+  list-style: decimal outside;
+}
+
+.activities-list li {
+  padding-bottom: 0.15rem;
+}
+
+.add-to-card {
+  min-height: 50px;
+  background-color: $white;
+  column-gap: 0.25rem;
+}
+
+.add-to-cart__links {
+  background-color: $dark-white;
+  text-align: center;
+}
+
+.carousel-inner {
+  height: 100%;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  top: 40%;
+  width: 50px;
+  height: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .multiple-images {
+    display: grid;
+    grid-template-rows: repeat(3,300px);
+    row-gap: 0.25rem;
+    background-color: $white;
+  }
+
+  .multiple-images img {
+    padding: 0.5rem;
+    background-color: $dark-white;
+  }
+
+  .product-page-main {
+    grid-template-columns: 30% 70%;
+    column-gap: 0.25rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .product-page-main {
+    grid-template-rows: 250px auto;
+    grid-template-columns: 1fr;
+    row-gap: 0.25rem;
+  }
+
+  .multiple-images {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    column-gap: 0.25rem;
+  }
+
+  .carousel-inner {
+    max-height: inherit;
+  }
+
+  .main-product-info {
+    grid-template-columns: 40% 60%;
+    grid-template-rows: auto;
+    column-gap: 0.25rem;
+    grid-template-areas:
+      "price img"
+      "weather img"
+      "activities img"
+      "add-to-cart img";
+  }
+
+  .image {
+    grid-area: img;
+    grid-template-rows: 30px auto;
+  }
+
+  .price-tag {
+    grid-area: price;
+  }
+
+  .weather {
+    grid-area: weather;
+  }
+
+  .activities {
+    grid-area: activities;
+  }
+
+  .add-to-card {
+    grid-area: add-to-cart;
+    max-height: 80px;
+  }
+}
